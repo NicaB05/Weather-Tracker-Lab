@@ -1,5 +1,5 @@
 // 1. Setup variables and paste your key here
-const apiKey = "f707acfb8da22112ec0b7cd6f336812c";
+const apiKey = "f303657c4b3a018e8f4e48012521b0cb7";
 const btn = document.getElementById("search-btn");
 const input = document.getElementById("city-input");
 
