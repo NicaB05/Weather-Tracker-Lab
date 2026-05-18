@@ -7,7 +7,7 @@ const input = document.getElementById("city-input");
 async function checkWeather() {
   const city = input.value;
   // The URL address where the weather data lives
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=London,uk&units=metric&appid=f303657c4b3a018e8f4e48012521b0cb7`;
 
   try {
     // AWAIT: Stop and wait for the server to answer
